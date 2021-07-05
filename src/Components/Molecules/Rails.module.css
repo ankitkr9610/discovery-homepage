@@ -1,0 +1,58 @@
+.Rails{
+    display: flex;
+    width: 100%;
+    white-space: nowrap;
+    overflow: scroll;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.ImageWrapper {
+    margin-right: 20px;
+    min-width: 202px;
+}
+
+@media (min-width: 700px){
+    .ImageWrapper{
+        position: relative;
+        z-index: 1;
+        padding-bottom: 56.25%;
+        background-color: #262931;
+        border-radius: 10px;
+    }
+}
+
+.RailsImage{
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.RailsHeading{
+    width: 100%;
+    position: absolute;
+    bottom: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.RailsHeading:hover{
+    width: 100%;
+    position: absolute;
+    bottom: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.RailsName{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    z-index: 1;
+    font-family: "Roboto-Medium", sans-serif;
+}

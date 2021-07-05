@@ -1,0 +1,35 @@
+.Link {
+    display: flex;
+    width: 100%;
+    flex-shrink: 0;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+.CarouselItem{
+    display: flex;
+}
+
+.ImageWrapper1{
+    width: 100%;
+    height: 100%;
+    padding-right: 66px;
+    align-self:flex-end;
+}
+
+.ImageWrapper2{
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.CarouselImage{
+    top:0;
+    position: absolute;
+    height: 180%;
+    width: 180%;
+    border-radius: 10px;
+    object-fit:contain;
+}

@@ -1,0 +1,40 @@
+.WatchLearn{
+    max-width: 1440px;
+    margin: 0px auto;
+    padding-bottom: 23px;
+    padding-top: 2px;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Heading{
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 1.4;
+    position: relative;
+}
+
+.View{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: #838991;
+    background: transparent;
+    margin-right: 50px;
+}
+
+.ImageWrapper2{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.Image{
+    width: 19vw;
+    height: 13vw;
+    border-radius: 2vw 2vw;
+    object-fit: contain;
+}

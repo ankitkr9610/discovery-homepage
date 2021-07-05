@@ -1,0 +1,121 @@
+.MasterContainer{
+    margin-top: 70px;
+}
+
+@media (min-width: 700px){
+    .MasterContainer{ 
+    background-color: #121317;
+    }
+}
+
+.CarouselContainer {
+    max-width: 1440px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+@media (min-width: 700px){
+    .LeftArrowContainer, .RightArrowContainer{
+        display: flex;
+        opacity: 1;
+    }
+}
+
+.LeftArrowContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 38px;
+    z-index: 2;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.3s all;
+    left:0;
+}
+
+
+.LeftArrow, .RightArrow{
+    width: 20px;
+    height: auto;
+}
+
+.LeftArrow:hover, .RightArrow:hover{
+    width: 30px;
+    height: auto;
+}
+
+
+.RightArrowContainer{
+    right: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 38px;
+    z-index: 2;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+
+@media (min-width: 480px){
+    .StyleIndicator{
+        position: absolute;
+        bottom: 0;
+        padding-left: 72px;
+        padding-top: 10px;
+    }
+}
+
+.StyleContainer{
+    font-size: 3rem;
+    bottom: 10px;
+    display: flex;
+    text-align: right;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+@media (min-width:700){
+    .Style{
+        display: inline-block;
+        margin-top: 1.9px;
+    }
+}
+
+.Style{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: solid 1px #ffffff;
+    cursor: pointer;
+    margin: 3px;
+}
+
+@media (min-width:700){
+    .StyleActive{
+        display: inline-block;
+        margin-top: 1.9px;
+    }
+}
+
+.StyleActive{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: solid 1px #ffffff;
+    cursor: pointer;
+    margin: 3px;
+    background-color: white;
+}

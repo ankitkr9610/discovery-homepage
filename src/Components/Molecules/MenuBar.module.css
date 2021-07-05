@@ -1,0 +1,53 @@
+.MenuBar{
+    margin-left: 5px;
+}
+
+@media (min-width: 1691px) and (max-width: 1851px){
+    .MenuBar{
+        margin-left: 10%;
+    }
+        
+}
+
+@media (min-width: 700px){
+    .MenuBar{
+        display: flex;
+        top: 0;
+        align-items: center;
+        height: 70px;
+    }
+        
+}
+
+
+@media (min-width: 700px){
+    .Link{
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;
+        margin-right: 24px;
+    }
+}
+
+@media (max-width: 869px){
+    .Link {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 700px){
+    .Link{
+        display: none;
+    }
+}
+
+.Link{
+    text-decoration: none;
+    line-height: 0.88;
+    text-align: center;
+    color: #838991;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 400;
+}
